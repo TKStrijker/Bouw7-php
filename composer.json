@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "lib\\":"lib",
+            "vendor\\":"vendor"
+
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
